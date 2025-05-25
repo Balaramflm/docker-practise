@@ -1,5 +1,5 @@
 FROM httpd
 MAINTAINER name balaram
 LABEL this is my first docker file
-COPY . /usr/local/apache2/htdocs/
 EXPOSE 80
+COPY . /usr/local/apache2/htdocs/
